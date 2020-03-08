@@ -71,6 +71,70 @@ The following are my findings from the dataset, they are not exhaustive but if y
 ### Number of tags does not seem to correlate to any other numerical metric 
 ![Correlation heatmap](https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/correlation_heatmap.png)
 
+Aside from the tag count findings, examination of the correlation data between the numerical columns show that there is some low correlation between all the intersections except views and likes which shows high correlation. 
+
+### Entertainment videos are the most prevalent trending category globally
+![Global category barplot](https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/global_categories_barplot.png)
+
+The number of trending videos of any category is behind entertainment by a huge margin. 
+
+### Most trending videos do not have their comments and ratings disabled
+![Comments ratings venn](https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/global_comments_ratings_venn.png)
+
+The trending video count between the two groups are hugely different and it seems like trending videos tend toward not having comments and/or ratings disabled.
+
+### Comments/ratings disabled videos exhibit a different category distribution profile
+![Global disabled category barplot](https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/global_comments_ratings_disabled_barplot.png)
+
+While the barplot for videos with either ratings or comments disabled initially looked similar to the global category barplot, the real distribution can be seen by calculating the percentage of videos in each category instead. This is because the absolute count undermines the proportion of videos of each category. The high percentage of trailers seemed abnormal given the distribution and it was found that it was due to having a low sample count. (n = 5 for Trailers)
+
+### Globally, no day or month seems to stand out particularly in terms of trending time (with the exception of November and June), suggesting that the YouTube algorithm may select relatively stably across time
+
+![Global trending videos by month]
+(https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/global_trending_month_barplot.png)
+
+![Global trending videos by day]
+(https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/global_trending_day_barplot.png)
+
+It was also found that June and November were relatively low because the dataset started mid-November and ended mid-June. They are kept in the visualization for the purpose of including all data.
+
+### No month clearly stands out in uploading time
+
+![Global uploaded trending videos by month](https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/global_publish_month_barplot.png)
+
+### Global trending video upload day increases through the week, peaking at Friday and then dropping when the weekend hits
+
+![Global uploaded trending videos by day]
+(https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/global_publish_day_barplot.png)
+
+### Global trending video upload hour seems to peak through 4PM UTC, following a gaussian distribution
+
+![Global uploaded trending videos by hour]
+(https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/global_publish_hour_barplot.png)
+
+### There is a global upload hour peak at around 3PM - 5PM, regardless of the day
+
+![Global uploaded day-hour heatmap]
+(https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/global_publish_day_hour_heatmap.png)
+
+### Upload time distribution of some countries are masked when analyzing the dataset globally
+
+![All countries uploaded day-hour heatmap]
+(https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/all_countries_publish_day_hour_heatmap.png)
+
+When looking at each of the individual countries, it can be seen that the peak upload hours of Asian countries as well as Mexico were masked when looking at the dataset globally. As there is likely to be a target national audience when publishing a video, I chose to zoom in into the United States (US) for a deeper look at its peak timing and its local significance.
+
+### Upload time peaks at 9AM - 12PM across the four major time zones in the United States
+
+![US timezones day-hour heatmap]
+(https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/US_timezones_publish_day_hour_heatmap.png)
+
+Zooming in into the peak hours of the US and visualizing the four major timezones present in it shows the complexity of the peak hour in the country. For simplicity one could take Eastern time as a gauge because it contains more than half of US population, but it is not conclusive which parts of US are the major contributors to the trending videos at each time point.
+
+### From these preliminary findings it seems best to upload an Entertainment-based video at around 4PM UTC on Friday for your best chance to trend if your content is not aimed towards any one national demographic.
+
+
+
 Further work
 -------------------------
 Listed below are some of the things that I want to eventually get to or can be considered as part of further work:
