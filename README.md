@@ -100,7 +100,7 @@ While the barplot for videos with either ratings or comments disabled initially 
 
 ![Global trending videos by day](https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/global_trending_day_barplot.png)
 
-It was also found that June and November were relatively low because the dataset started mid-November and ended mid-June. They are kept in the visualization for the purpose of including all data.
+It was also found that June and November were relatively low because the dataset was dependent on trending date which started 1st December and ended 31st May. They are kept in the visualization for the purpose of including all data.
 
 
 ### No month clearly stands out in uploading time
@@ -137,12 +137,23 @@ When looking at each of the individual countries, it can be seen that the peak u
 Zooming in into the peak hours of the US and visualizing the four major timezones present in it shows the complexity of the peak hour in the country. For simplicity one could take Eastern time as a gauge because it contains more than half of US population, but it is not conclusive which parts of US are the major contributors to the trending videos at each time point.
 
 
-### From these preliminary findings it seems best to upload an Entertainment-based video at around 4PM UTC on Friday for your best chance to trend if your content is not aimed towards any one national demographic.
+### From these preliminary findings it seems best to upload an Entertainment-based video at around 4PM UTC on Friday without disabling ratings or comments for your best chance to trend if your content is not aimed towards any one national demographic.
 
 
 
 Further work
 -------------------------
-Listed below are some of the things that I want to eventually get to or can be considered as part of further work:
+Listed below are some of the things that I want to eventually get to or can be considered as part of further work, classified by difficulty:
 
-* To-do
+Easy:
+* See if different categories have different time hotspots
+
+Medium:
+* Scrape more data to fill up January - November 2017 and June - December 2018 so that the data can be examined across years, and the data per month may be meaningful
+* Analyze description to see if the video description helps with trending
+* Examine each country in detail specifically (might be a bit too length-y and broad)
+
+Hard:
+* Find the channels that release the most trending videos, see if there is a way to cluster them (VEVO, etc.)
+* See if the publish time can be analyzed in order to find out publishing patterns of groups, however this pivots on having a good method to cluster channels
+* Merge data with full YouTube video repository metadata (including non-trending videos) and see if further insights can be gained or current insights can be confirmed
