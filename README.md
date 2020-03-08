@@ -69,7 +69,7 @@ Findings
 The following are my findings from the dataset, they are not exhaustive but if you would like a chance ot explore the dataset with a clean perspective you should probably stop reading here.
 
 ### Number of tags does not seem to correlate to any other numerical metric 
-
+![Correlation heatmap](https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/correlation_heatmap.png)
 
 Further work
 -------------------------
