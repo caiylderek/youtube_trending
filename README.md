@@ -1,7 +1,9 @@
 YouTube Trending Videos Analysis
 -----------------------
 
-Analyze and interpret the findings of a YouTube trending videos dataset.  Data collected and released by Mitchell J. The data is included in this repository as it is released by Mitchell J under the CC0 license into public domain, but I would like to extend special thanks to Mitchell J for the opportunity to work on this dataset, which can be found [here](https://www.kaggle.com/datasnaek/youtube-new).
+For the purposes of analyzing and interpreting the findings of a YouTube trending videos dataset.  
+Data collected and released by Mitchell J. 
+The data is included in this repository as it is released by Mitchell J under the CC0 license into public domain, but I would like to extend special thanks to Mitchell J for the opportunity to work on this dataset, which can be found [here](https://www.kaggle.com/datasnaek/youtube-new).
 
 Installation
 ----------------------
