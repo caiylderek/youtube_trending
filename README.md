@@ -68,7 +68,7 @@ Aims
 
 Findings
 -------------------------
-The following are my findings from the dataset, they are not exhaustive but if you would like a chance ot explore the dataset with a clean perspective you should probably stop reading here.
+The following are my findings from the dataset, they are not exhaustive but if you would like a chance to explore the dataset with a clean perspective you should probably stop reading here.
 
 ### Number of tags does not seem to correlate to any other numerical metric 
 ![Correlation heatmap](https://github.com/caiylderek/youtube_trending/blob/master/pre_generated/graphs/correlation_heatmap.png)
@@ -157,3 +157,8 @@ Hard:
 * Find the channels that release the most trending videos, see if there is a way to cluster them (VEVO, etc.)
 * See if the publish time can be analyzed in order to find out publishing patterns of groups, however this pivots on having a good method to cluster channels
 * Merge data with full YouTube video repository metadata (including non-trending videos) and see if further insights can be gained or current insights can be confirmed
+
+
+Find me
+-------------------------
+LinkedIn: [caiylderek](https://www.linkedin.com/in/caiylderek/)
